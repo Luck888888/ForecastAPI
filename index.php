@@ -34,7 +34,9 @@ function outputWeather(City $city, Weather $request) {
             $city->setWeatherTwoDay($weatherTwo);
             echo "Processed city ".$city->getName()." | $weatherOne - $weatherTwo <br>";
         }
+
         else {
+
             echo "Empty result on api";
         }
     }
