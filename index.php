@@ -16,7 +16,7 @@ function amusement(Weather $request) {
                 outputWeather($city, $request);
             }
         }
-        else echo "Empty result on api.";
+        else echo "Empty result on api...";
     }
 }
 
@@ -37,7 +37,7 @@ function outputWeather(City $city, Weather $request) {
 
         else {
 
-            echo "Empty result on api";
+            echo "Empty result on api...";
         }
     }
 }
