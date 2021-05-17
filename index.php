@@ -19,7 +19,7 @@ function amusement(Weather $request) {
         else echo "Empty result on api...";
     }
 }
-
+//comment
 function outputWeather(City $city, Weather $request) {
     $response = $request->getCityWeather($city->getLatitude(), $city->getLongitude());
     if($response !== false) {
